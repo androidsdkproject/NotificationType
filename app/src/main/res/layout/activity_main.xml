@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android1.notificationtype.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Notification Type"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/simplenoticationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Simple Notification"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bigtextnoticationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="big text Style Notification"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bigimagenoticationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="big image style Notification"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/inboxtypenoticationbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:text="Inbox type Notification"
+        android:textAllCaps="false" />
+</LinearLayout>
